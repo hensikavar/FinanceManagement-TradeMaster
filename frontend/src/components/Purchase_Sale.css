@@ -1,0 +1,131 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.purchase-sale-header{
+    height: 21vh;
+    background-color: palevioletred;
+    margin-bottom: 15px;
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.635);
+}
+
+.filters{
+    margin: 15px;
+    display: flex;
+}
+
+.fil-cat{
+    font-size: 18px;
+    font-weight: 600;
+    padding-right: 20px;
+}
+
+.fil-date{
+    padding: 10px;
+    border: 2px solid black;
+    height: 30px;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+    display: flex;
+}
+.net-res{
+    margin: 12px;
+    display: flex;
+}
+
+.paid{
+    height: 60px;
+    border-radius: 20px;
+    width: 150px;
+    background-color: aqua;
+    color: rgb(53, 53, 94);
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.unpaid{
+    height: 60px;
+    border-radius: 20px;
+    width: 150px;
+    background-color:rgb(175, 175, 239);
+    color: rgb(53, 53, 94);
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.total{
+    height: 60px;
+    border-radius: 20px;
+    width: 150px;
+    background-color: rgb(247, 181, 157);
+    color: rgb(53, 53, 94);
+    font-weight: 600;
+    font-size: 18px;
+}
+.sign{
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_ps_page{
+    margin: 1px;
+}
+
+.ps-tranc{
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.635);
+    height: 70vh; 
+    background-color: palevioletred;
+}
+
+.ps-tranc-table{
+    width: 100%;
+    height: 65vh;
+    max-height: 55vh;
+    background-color: aliceblue;
+    overflow-y: auto;
+}
+ 
+th{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.ps-search{
+    justify-content: space-between;
+    display: flex;
+
+}
+
+.search-tran{
+    border-radius: 10px;
+    margin-left: 0;
+    width:75%;
+}
+
+.search-tran input{
+    height: 40px;
+    background-color: white;
+    margin: 5px;
+    border-radius: 5px;
+}
+.add-tran{
+    height: 40px;
+    width: 250px;
+    margin: 10px;
+    margin-top: 5px;
+}
+
+/* .bottom{
+    width: 350px;
+    font-weight: 600;
+    position: sticky;
+    bottom: 0;
+    z-index: 1;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+} */

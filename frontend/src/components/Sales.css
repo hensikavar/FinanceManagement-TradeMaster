@@ -1,0 +1,140 @@
+.sales-actual-form{
+    /* position: 'absolute'; */
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin-top:0;
+    height:100%;
+    z-index: 3;
+    background-color: #000000bc; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sales-party-form{
+    background-color: #fff;
+    width: 98%;
+    height: 99%;
+}
+.form-box-s{
+    /* background-color: aqua; */
+    /* padding:0px; */
+    width: 100%;
+    max-width: 1340px;
+    position: absolute;
+    top: 2%;
+    left:1.5%;
+    bottom: 2%;
+    background: #b4dce9;
+    /* padding:5px; */
+    /* text-align: center; */
+}
+
+.form-box-s>h1{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: rgb(65, 9, 165);
+    position: relative;
+}
+
+.input-grp-s{
+    width:100% ;
+    margin-bottom: 20px;
+    /* background-color: red; */
+    display: flex;
+}
+.input-grp-s .name-phone {
+    display: flex;
+    /* float: left; */
+}
+.input-fld-s{
+    height: 50px;
+    width: 270px;
+    background: #eaeaea;
+    margin: 15px 10px ;
+    border-radius: 3px;
+    /* display: flex;  */
+    align-items: center;
+}
+
+input{
+    width: 100%;
+    background:transparent ;
+    border: 0;
+    outline: 0;
+    padding: 10px 10px;
+}
+.item-list td input {
+    margin: 2px;
+    padding: 5px 5px;
+    /* background: #b4dce9; */
+    border-bottom: 2px solid black;
+}
+td{
+    text-align: left;
+}
+/* .input-fields i {
+    margin-left: 15px;
+    color: #999;
+} */
+.states{
+    width: 100%;
+    background:transparent ;
+    border: 0;
+    outline: 0;
+    border-bottom: 2px solid black;
+    padding: 8px 8px;
+}
+
+.bottom-btn{
+    position: absolute;
+    bottom: 10px; 
+    left: 50%;
+    top: 92%;
+    transform: translateX(-50%);
+    width: 94%;
+    margin-top: auto;
+    justify-content: space-between;
+    display: flex;
+}
+
+.ps-item-tranc-table{
+    width: 100%;
+    height: 60vh;
+    max-height: 39vh;
+    background-color: rgba(186, 189, 191, 0.546);
+    overflow-y: auto;
+}
+
+.type{
+    width: 90%;
+    text-align: center;
+    background:transparent ;
+    border: 0;
+    outline: 0;
+}
+
+.actual-form{
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin-top:0;
+    height:100%;
+    z-index: 10;
+    background-color: #000000bc; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-box1{
+    margin-top: 50px;
+    height: 70%;
+}
+
+tbody tr td{
+    text-align: center;
+    align-items: center;
+}

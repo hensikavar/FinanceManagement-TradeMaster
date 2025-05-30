@@ -1,0 +1,42 @@
+*{
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+}
+
+.bill-page{
+    padding: 20px;
+}
+.bill-title-name{
+    height: 20vh;
+    border-bottom: 2px solid black;
+    padding: 20px;
+    display: flex;
+}
+.bill-title-name>div{
+    font-size: 20px;
+}
+.bill-details{
+    padding: 10px;
+    display: flex;
+    font-size: 25px;
+    justify-content: space-between;
+}
+.party-table{
+    padding: 10px;
+}
+.item-table>table>tr>td{
+    text-align: center;
+    align-items: center;
+}
+.item-table{
+    font-size: 20px;
+    text-align: center;
+}
+.item-row{
+    padding: 10px;
+}
+.money-data{
+    padding: 30px;
+    font-size: 20px;
+}

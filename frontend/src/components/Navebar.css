@@ -1,0 +1,52 @@
+body {
+    background-color:white; /* Dark background color */
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Navigation Bar Styles */
+nav {
+    height: 10vh;
+    background-color: #040000; /* Dark color for the navbar */
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: #fff; /* Text color for links */
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+.navbar{
+    padding-top: 15px;
+    display: flex;
+}
+
+li{
+    list-style: none;
+}
+
+nav a:hover {
+    background-color:  rgb(65, 9, 182);
+    font-size: 18px;
+    font-weight: bold; /* Hover color for links */
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+}
+
+img {
+    width: 200px;
+    height: 100%; /* Adjust the logo size as needed */
+    margin-right: 10px;
+    border-radius: 50%; 
+}
+
